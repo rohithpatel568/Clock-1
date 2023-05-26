@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="./clock.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="https://d11d9oqz0intmj.cloudfront.net/NsKHVanuaonbzsp.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="clock d-flex justify-content-end">
+            <div class="hours text-center rounded bg-primary p-2">
+                <h3 class="d-inline p-2">
+                    <span class="hour-counter">00</span>
+                </h3>
+                <br/>
+                <h3 class="mt-2 its-size">Hours</h3>
+            </div>
+            <div class="minutes text-center rounded bg-secondary p-2">
+                <h3 class="d-inline p-2">
+                    <span class="minute-counter">00</span>
+                </h3>
+                <br/>
+                <h3 class="mt-2 its-size">Minutes</h3>
+            </div>
+            <div class="seconds text-center rounded p-2 bg-warning">
+                <h3 class="d-inline p-2">
+                    <span class="second-counter">00</span>
+                </h3>
+                <br/>
+                <h3 class="mt-2 its-size">Seconds</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="./clock.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

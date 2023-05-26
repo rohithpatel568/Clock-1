@@ -1,0 +1,19 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/321138.jpg);
+    background-size: 100%;
+}
+
+.clock{
+    margin-top: 20%;
+}
+.hours,.minutes,.seconds{
+    margin-right: 20px;
+}
+
+.its-size{
+    font-size: 15px;
+}
+
+.rounded{
+    box-shadow: 2px 2px 1px black;
+}
